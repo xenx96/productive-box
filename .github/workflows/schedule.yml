@@ -14,6 +14,5 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: ${{ secrets.GIST_ID }}
-          TIMEZONE: Asia/RepulicofKorea
-          ALL_COMMITS : true
-          K_FORMAT : true
+          TIMEZONE: Asia/Seoul
+
